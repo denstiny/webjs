@@ -14,6 +14,9 @@ from setuptools import setup, find_packages
 setup(
     name="webjs",
     version="0.1.0",
+    install_requires = [
+        "PyQt6-WebEngine>=6.6.0"
+    ],
     author="denstiny",
     author_email="2254228017@qq.com",
     description="A simple browser",
@@ -27,4 +30,5 @@ setup(
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.6',
+    
 )
